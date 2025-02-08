@@ -7,5 +7,7 @@ environment:
   sdk: ^3.6.2
 
 dev_dependencies:
+  flutter_test:
+    sdk: flutter
   tide_analysis:
     path: ../tide_analysis
