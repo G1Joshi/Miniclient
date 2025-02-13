@@ -1,0 +1,26 @@
+name: api_client
+description: Marvel API client
+version: 0.0.1
+publish_to: none
+
+environment:
+  sdk: ^3.6.2
+
+dependencies:
+  crypto: ^3.0.6
+  dio: ^5.8.0+1
+  injectable: ^2.5.0
+  json_annotation: ^4.9.0
+  tide_prelude:
+    path: ../tide_prelude
+  retrofit: ^4.4.2
+  tide_di:
+    path: ../tide_di
+
+dev_dependencies:
+  build_runner: ^2.4.15
+  injectable_generator: ^2.7.0
+  json_serializable: ^6.9.4
+  retrofit_generator: ^9.1.9
+  tide_analysis:
+    path: ../../utility/tide_analysis
