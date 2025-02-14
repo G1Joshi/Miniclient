@@ -1,0 +1,19 @@
+name: tide_design_system
+description: Design system
+version: 0.0.1
+publish_to: none
+
+environment:
+  sdk: ^3.6.2
+  flutter: ^3.27.4
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  tide_analysis:
+    path: ../tide_analysis
+
+flutter:
+  uses-material-design: true
